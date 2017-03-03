@@ -1,0 +1,23 @@
+import functools
+import subprocess
+import sys
+
+def _git(dname, *args):
+    command = ['git'] + list(args)
+    subprocess.check_call(command, cwd=dname)
+
+def override_with(git, remote, activate=False):
+    git('init')
+    git('remote', 'add', 'origin', remote)
+    git('add', '.')
+    git('commit', '-m', 'Initial commit', '--author', 'Pyninsula <admin@pyninsula.org>')
+    if not activate:
+        return
+    git('push', '--force', '--set-upstream', 'origin', 'master')
+
+def main():
+    git = functools.partial(_git, sys.argv[1])
+    override_with(git, sys.argv[2], '--activate' in sys.argv)
+
+if __name__ == '__main__':
+    main()
