@@ -80,7 +80,8 @@ we'll ask you to tell us about what happened.
 This can be upsetting,
 but we'll handle it as respectfully as possible,
 and you can bring someone to support you.
-You won't be asked to confront anyone and we won't tell anyone who you are.
+At no point will you be asked to confront anyone and
+at no point, unless you ask us to, will we tell anyone who you are.
 
 Our team will be happy to help you contact venue security,
 local law enforcement, local support services, provide escorts,
