@@ -22,6 +22,10 @@ Harassment includes, but is not limited to:
 * Unwelcome sexual attention
 * Advocating for, or encouraging, any of the above behaviour
 
+Additionally, Pyninsula welcomes its younger members.
+Please keep all interaction to PG-13,
+as this is a family-friendly venue.
+
 Enforcement
 ~~~~~~~~~~~
 
@@ -54,7 +58,7 @@ People like you make our event a better place.
 You can make a report either personally or anonymously.
 
 Anonymous Report
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 
 You can make an `anonymous report`_.
 
@@ -65,7 +69,7 @@ to prevent a recurrence.
 .. _anonymous report: https://goo.gl/forms/aDUSUvM8epVSip1z1
 
 Personal Report
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 You can make a personal report by:
 
