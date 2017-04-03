@@ -35,5 +35,5 @@ TAG_SAVE_AS = ''
 ABOUT_ME = """
 Check out our <a href="https://www.meetup.com/Pyninsula-Python-Peninsula-Meetup/">Meetup Group</a>.
 
-<p>Pyninsula is dedicated to a harassment-free conference experience for everyone. See our <a href="https://pyninsula.org/pages/coc.html">Code of Conduct</a>.</p>
+<p>Pyninsula is dedicated to a harassment-free conference experience for everyone. See our <a href="https://pyninsula.org/pages/code-of-conduct.html">Code of Conduct</a>.</p>
 """
