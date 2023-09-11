@@ -6,6 +6,8 @@ SITEURL = 'https://pyninsula.org'
 STATIC_PATHS = ['assets']
 
 PATH = 'content'
+EXTRA_PATH_METADATA = {'assets/favicon.ico': {'path': 'favicon.ico'}}
+
 
 TIMEZONE = 'America/Los_Angeles'
 
