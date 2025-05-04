@@ -21,11 +21,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 LINKS = (
-    ("meetup.com", 'https://www.meetup.com/Pyninsula-Python-Peninsula-Meetup/'),
-    ("YouTube", 'https://www.youtube.com/channel/UCiT1ZWcRdFLx7PuR3fTjTfA'),
-    ("Twitter", 'http://twitter.com/pyninsula'),
-    ("GitHub", 'http://github.com/pyninsula/website'),
-    ("Python", 'https://python.org/'),
+    ("meetup.com", 'https://www.meetup.com/Pyninsula-Python-Peninsula-Meetup/', False),
+    ("YouTube", 'https://www.youtube.com/channel/UCiT1ZWcRdFLx7PuR3fTjTfA', True),
+    ("Mastodon", 'https://fosstodon.org/@pyninsula', True),
+    ("Twitter", 'http://twitter.com/pyninsula', True),
+    ("GitHub", 'http://github.com/pyninsula/website', False),
+    ("Python", 'https://python.org/', False),
         )
 
 # Social widget

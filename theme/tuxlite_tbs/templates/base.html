@@ -126,8 +126,8 @@
                 Links
                 </li>
             
-            {% for name, link in LINKS %}
-                <li><a href="{{ link }}">{{ name }}</a></li>
+            {% for name, link, me in LINKS %}
+            <li><a href="{{ link }}"{% if me %} rel="me"{% endif %}>{{ name }}</a></li>
             {% endfor %}
             </ul>
             </div>
@@ -144,7 +144,7 @@
                 </li>
            
                 {% for name, link in SOCIAL %}
-                <li><a href="{{ link }}">{{ name }}</a></li>
+                <li><a href="{{ link }}" rel="me">{{ name }}</a></li>
                 {% endfor %}
             </ul>
             </div>
